@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#722d32">
+  <meta name="description" content="איזה נתח מתאים לארוחה שלכם? שאלון קצר, עד שלוש המלצות מנומקות ומילון נתחי בקר בעברית.">
+  <title>נתח · הבשר שמתאים לכם</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.mjs"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">דילוג לתוכן</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="נתח, עמוד הבית"><span class="brand-mark" aria-hidden="true">נ.</span><span>נתח<span class="brand-sub">קצת ידע. בשר טוב.</span></span></a>
+    <nav aria-label="ניווט ראשי"><a href="#quiz" data-nav="quiz">מוצאים נתח</a><a href="#glossary" data-nav="glossary">מילון הנתחים</a><a href="#terms" data-nav="terms">מדברים בשר</a></nav>
+    <span class="header-note">מדריך לבקר, בעברית</span>
+  </header>
+  <main id="main" tabindex="-1"></main>
+  <footer class="site-footer"><a class="footer-brand" href="#home">נתח.</a><p>הארוחה מתחילה בבחירה טובה.</p><a href="#sources">על המדריך והמקורות</a><span>נבנה לאנשים שאוהבים לאכול.</span></footer>
+  <dialog id="cut-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="סגירת פרטי הנתח">×</button><div id="dialog-body"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript><p>צריך להפעיל JavaScript כדי להשתמש בשאלון ובמילון הנתחים.</p></noscript>
+</body>
+</html>
