@@ -37,7 +37,7 @@ GitHub repository: https://github.com/Lopierdis/meat-match
 
 GitHub Pages: https://lopierdis.github.io/meat-match/
 
-GitHub Pages publishes the `docs/` directory from `main` using its built-in branch publishing. Run `npm test` before pushing. No custom Actions workflow or workflow-scoped token is needed. Relative asset paths work with both the repository URL and a custom domain. The planned custom domain is `meat-match.com`.
+GitHub Pages publishes the `docs/` directory from `main` using its built-in branch publishing. Run `npm test` before pushing. No custom Actions workflow or workflow-scoped token is needed. Relative asset paths work with both the repository URL and a custom domain. `docs/CNAME` assigns `meat-match.com`. The GitHub URL redirects to that domain once configured. Namecheap DNS must be updated using [the domain setup notes](research/domain-setup.md), then HTTPS can be enforced after GitHub issues the certificate.
 
 An unpublished Sites project was registered during setup before the hosting choice changed to GitHub Pages. Its local `.openai/` configuration is ignored and unused by this project.
 
